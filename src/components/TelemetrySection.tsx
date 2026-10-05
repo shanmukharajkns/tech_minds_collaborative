@@ -116,7 +116,7 @@ const TelemetrySection: React.FC = () => {
             </div>
 
             <motion.div
-                className="text-center mb-16"
+                className="text-center mb-16 mt-16"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -127,9 +127,11 @@ const TelemetrySection: React.FC = () => {
                     <br />
                     <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">MEASURED IN MOTION.</span>
                 </h2>
-                <p className="mt-6 text-slate-400 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
-                    Traditional resumes describe what engineers claim to know. Engineering telemetry helps reveal how they actually build.
-                </p>
+                <div className="w-full text-center mt-6">
+                    <p className="mt-12 text-slate-400 text-base mx-auto leading-relaxed">
+                        Traditional resumes describe what engineers claim to know. Engineering telemetry helps reveal how they actually build.
+                    </p>
+                </div>
             </motion.div>
 
             {/* Dashboard */}

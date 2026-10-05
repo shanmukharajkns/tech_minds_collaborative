@@ -15,7 +15,7 @@ const domains = [
         accentColor: 'text-cyan-400',
         badgeBg: 'bg-cyan-500/10 border-cyan-500/20 text-cyan-400',
         visual: (
-            <svg viewBox="0 0 200 120" className="w-full h-auto opacity-40 group-hover:opacity-60 transition-opacity">
+            <svg viewBox="0 0 200 120" className="w-full mt-5 h-auto opacity-40 group-hover:opacity-60 transition-opacity">
                 {/* Cloud architecture diagram */}
                 <rect x="70" y="8" width="60" height="24" rx="4" fill="none" stroke="rgba(6,182,212,0.3)" strokeWidth="1" />
                 <text x="100" y="23" textAnchor="middle" fill="rgba(6,182,212,0.5)" fontSize="6" fontFamily="Inter">API GATEWAY</text>

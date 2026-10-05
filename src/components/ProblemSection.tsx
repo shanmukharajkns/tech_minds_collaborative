@@ -32,20 +32,22 @@ const ProblemSection: React.FC = () => {
 
             {/* Heading */}
             <motion.div
-                className="text-center mb-20"
+                className="w-full text-center mb-20"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
             >
-                <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
+                <h2 className="text-3xl mt-10 sm:text-4xl lg:text-5xl font-extrabold tracking-tight">
                     <span className="text-white">THE GAP ISN'T TALENT.</span>
                     <br />
                     <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">IT'S READINESS.</span>
                 </h2>
-                <p className="mt-6 text-slate-400 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
-                    Engineering graduates often leave academia with foundational knowledge, while enterprise software environments demand production engineering practices, architectural thinking, delivery discipline and the ability to contribute from day one.
-                </p>
+                <div className="w-full text-center">
+  <p className="mt-12 text-slate-400 text-base mx-auto leading-relaxed">
+    Engineering graduates often leave academia with foundational knowledge, while enterprise software environments demand production engineering practices, architectural thinking, delivery discipline and the ability to contribute from day one.
+  </p>
+</div>
             </motion.div>
 
             {/* Comparison */}

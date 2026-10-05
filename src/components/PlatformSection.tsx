@@ -70,9 +70,11 @@ const PlatformSection: React.FC = () => {
                     <br />
                     <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">NOT JUST RESUMES.</span>
                 </h2>
-                <p className="mt-6 text-slate-400 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
-                    TMC combines proprietary diagnostic assessment with continuous engineering performance telemetry to create a measurable view of engineering capability.
-                </p>
+                <div className="w-full text-center">
+                    <p className="mt-6 text-slate-400 text-base mx-auto leading-relaxed">
+                        TMC combines proprietary diagnostic assessment with continuous engineering performance telemetry to create a measurable view of engineering capability.
+                    </p>
+                </div>
             </motion.div>
 
             {/* Pipeline flow */}
