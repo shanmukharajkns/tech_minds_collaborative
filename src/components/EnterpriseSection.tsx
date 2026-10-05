@@ -22,11 +22,9 @@ const EnterpriseSection: React.FC = () => {
                     <br />
                     <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">ENTERPRISE ENGINEERING.</span>
                 </h2>
-                <div className="w-full text-center">
-                    <p className="mt-6 text-slate-400 text-base mx-auto leading-relaxed">
-                        TMC delivers pre-assessed engineering talent to Global Capability Centers and technology organizations, backed by technical diagnostics and benchmarked communication skills.
-                    </p>
-                </div>
+                <p className="mt-6 max-w-3xl mx-auto text-center text-base sm:text-lg text-slate-400 leading-relaxed">
+                    TMC delivers pre-assessed engineering talent to Global Capability Centers and technology organizations, backed by technical diagnostics and benchmarked communication skills.
+                </p>
             </motion.div>
 
             {/* Enterprise architecture visualization */}

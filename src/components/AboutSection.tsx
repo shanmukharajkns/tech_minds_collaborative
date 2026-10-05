@@ -24,7 +24,7 @@ const AboutSection: React.FC = () => {
                     <br />
                     <span className="bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">ENTERPRISE PERFORMANCE.</span>
                 </h2>
-                <p className="mt-8 text-slate-400 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
+                <p className="mt-6 text-slate-400 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
                     Tech Minds Collaborative was founded to address the gap between academic computer science output and the demands of day-one enterprise software engineering.
                 </p>
             </motion.div>
